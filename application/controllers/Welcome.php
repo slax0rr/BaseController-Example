@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends \SlaxWeb\BaseController\BaseController {
 
+    // disable language file loading
     public $langFile = false;
 
 	/**
@@ -22,6 +23,7 @@ class Welcome extends \SlaxWeb\BaseController\BaseController {
 	 */
 	public function index($id = 0)
     {
+        // enable the layout
         $this->layout = true;
 	}
 }
