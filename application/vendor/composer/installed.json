@@ -1,0 +1,86 @@
+[
+    {
+        "name": "slaxweb/ci-viewloader",
+        "version": "1.0.3.0",
+        "version_normalized": "1.0.3.0",
+        "target-dir": "SlaxWeb/ViewLoader",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/slax0rr/ViewLoader.git",
+            "reference": "f0482e5513b55afc4a1e4dee3d6c453f7651928b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/slax0rr/ViewLoader/zipball/f0482e5513b55afc4a1e4dee3d6c453f7651928b",
+            "reference": "f0482e5513b55afc4a1e4dee3d6c453f7651928b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2014-07-03 07:51:29",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-develop": "1.1.0.x-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "SlaxWeb\\ViewLoader": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPLv3"
+        ],
+        "authors": [
+            {
+                "name": "Tomaz Lovrec",
+                "email": "tomaz.lovrec@gmail.com"
+            }
+        ],
+        "description": "View Loader for CodeIgniter"
+    },
+    {
+        "name": "slaxweb/ci-basecontroller",
+        "version": "0.2.3",
+        "version_normalized": "0.2.3.0",
+        "target-dir": "SlaxWeb/BaseController",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/slax0rr/BaseController.git",
+            "reference": "e093eb1cb13c9212031700b1dd524d837ef483e3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/slax0rr/BaseController/zipball/e093eb1cb13c9212031700b1dd524d837ef483e3",
+            "reference": "e093eb1cb13c9212031700b1dd524d837ef483e3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0",
+            "slaxweb/ci-viewloader": "1.0.3.0"
+        },
+        "time": "2014-10-16 07:32:11",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "SlaxWeb\\BaseController": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Tomaz Lovrec",
+                "email": "tomaz.lovrec@gmail.com"
+            }
+        ],
+        "description": "BaseController for CodeIgniter"
+    }
+]

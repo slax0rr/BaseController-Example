@@ -1,0 +1,5 @@
+{
+    "require": {
+        "slaxweb/ci-basecontroller": "~0.2"
+    }
+}
